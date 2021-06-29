@@ -57,14 +57,43 @@ header{
     margin-right: 50px;
 
 }
-
 .nav .perfil a{   
     padding: 5px;
     color: black;
 }
-
 .nav .perfil a:hover{
-    
     text-decoration: none;
     background-color: #47cfac;
+}
+
+/* ---- main ---- */
+main {
+    width: 100%;
+    height: 420px;
+    background-image: url("../../assets/img/Cover.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+main h1{
+    margin: 0;
+    padding-top: 150px;
+    color:#47cfac;
+    display: flex;
+    justify-content: center;
+}
+
+main .boton-principal{
+    margin-top: 60px;
+    margin-left: 48%;
+    padding: 5px;
+    color: #47cfac;
+    background-color: black;
+    transition: background-color .5s;
+    border: none;
+}
+main .boton-principal:hover{
+    color: black;
+    background-color: #47cfac;
+   
 }
