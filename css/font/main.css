@@ -182,3 +182,17 @@ header{
     text-decoration: none;
     color: black;
 }
+
+.footer-blogs{
+    width: 100%;
+    height: 75px;
+    background-color: #22272d;
+    border-top: 35px solid #47cfac;
+}
+
+.footer-blogs p{
+    padding-top: 10px;
+    color: white;
+    text-align: center;
+}
+
