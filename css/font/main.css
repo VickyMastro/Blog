@@ -1,12 +1,17 @@
 body{
     margin: 0;
     padding: 0;
+    
+}
+
+.home-body{
     position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
 }
+
 header{
     width: 100%;
     height: 140px;
@@ -110,5 +115,70 @@ header{
 
 /* ------------------------------------ */
 /* -------------- blogs  -------------- */
+.blogs-main{
+    display: grid;
+}
 
+.blogs-first-section{
+    background-color: #e6e9ed;
+    padding: 0 50px 40px;
+}
 
+.blogs-principal{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr;
+    grid-column: 1;
+}
+
+.blogs-principal .image-info{
+    grid-column: 1;
+}
+
+.blogs-principal .image-info img{
+    width: 85%;
+}
+
+.blogs-principal-info{
+    grid-column: 2;
+}
+
+.blogs-principal-info p{
+    margin-bottom: 35px;
+}
+
+/* SEGUNDA SECCION CON LOS POST */
+.blogs-second-section{
+    padding: 0 50px 40px;
+}
+
+.blogs-second-section h3{
+    border-bottom: 1px solid #cdd2da;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.blogs-second-section .articles-blogs{
+    display: inline-block;
+    padding-left: 10px;
+    max-width: 30%;
+    margin-bottom: 50px;
+
+}
+
+.blogs-second-section .articles-blogs p{
+    margin-bottom: 35px;
+
+}
+
+.blogs-second-section .articles-blogs img{
+    width: 100%;
+}
+
+.blogs-button{
+    border: 1px solid #47cfac;
+    padding: 10px 15px;
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+}
