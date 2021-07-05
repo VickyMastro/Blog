@@ -92,14 +92,13 @@ header{
     display: grid;
     grid-column: 2;
     justify-items: center;
-    height: 350px;
+    height: 250px;
     margin-top: 80px;
 }
 
 .home-main h1{
-    padding-top: 50px;
     font-size: 30px;
-    font-weight: 700px;
+    font-weight: 700;
     letter-spacing: 10px;
     color: #47cfac;
     text-align: center;
@@ -157,6 +156,10 @@ header{
     padding: 0 50px 40px;
 }
 
+.blogs-second-section .grid-container {
+    text-align: center;
+}
+
 .blogs-second-section h3{
     border-bottom: 1px solid #cdd2da;
     padding-bottom: 20px;
@@ -173,6 +176,7 @@ header{
 
 .blogs-second-section .articles-blogs p{
     margin-bottom: 35px;
+    text-align: left;
 
 }
 
