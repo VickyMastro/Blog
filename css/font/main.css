@@ -233,7 +233,7 @@ header{
 
 .contact-main-container{
     width: 100%;
-    min-height: 250px;
+    min-height: 150px;
     background-color: #e6e9ed;
     text-align: center;
     padding-bottom: 50px;
@@ -260,37 +260,40 @@ header{
 .contact-main-container img{
     width: 100px;
 }
-/* 
-.contact-main-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+
+/* ----------------------------------------------- */
+/* ------------PERFIL-------------- */
+
+.profile-information{
     background-color: #e6e9ed;
-    height: 180px;
+    padding: 0 60px 40px;
+    height: 200px;
+    padding-top: 50px;
+}
+.profile-personal img{
+    width: 320px;
+    margin-right: 25px; 
 }
 
-.contact-main-container .colums{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.profile-personal{
+    display: flex;
 }
 
-.contact-main-container .colums img{
-    width: 85px;
-    height: 85px;
-    margin-left: auto;
-    margin-top: 20px;
-    padding-right: 12px;
+/* seccion de proyectos */
+.proyects-section .grid-container{
+    text-align: center;
 }
 
-.contact-main-container .contact-left{
-    padding-top: 40px;
-    grid-column: 2;
+.proyects-section h3{
+    text-align: center;
+    border-bottom: 1px solid #cdd2da;
+    padding-bottom: 25px;
 }
 
-.contact-main-container .contact-rigth{
-    padding-top: 40px;
-    grid-column: 2;
+.proyects-section .important-proyects {
+    display: inline-block;
+    max-width: 30%;
+    text-align: left;
 }
- */
-
 
 
